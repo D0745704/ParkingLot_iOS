@@ -5,10 +5,6 @@ without using plugings
 
 The tech I used: 
 
-CoreData
-MVC
-JSON
+CoreData/ MVC/ JSON
 
-MapView
-Auto Layout
-Pull to refresh
+MapView/ Auto Layout/ Pull to refresh
