@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47312BDB27D72FD800D71EC7 /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47312BDA27D72FD800D71EC7 /* APIModel.swift */; };
+		47312BE627D9829700D71EC7 /* ParkingLocTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47312BE527D9829700D71EC7 /* ParkingLocTableCell.swift */; };
+		473CBD8E27C71EDE00650029 /* ParkingData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 473CBD8C27C71EDE00650029 /* ParkingData.xcdatamodeld */; };
+		473D064D27C87B5400459402 /* DBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473D064C27C87B5400459402 /* DBModel.swift */; };
+		473D064F27C8801F00459402 /* ParkingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473D064E27C8801F00459402 /* ParkingData.swift */; };
+		4744675827E3266D001441B9 /* Extension+MKCoordinateRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4744675727E3266D001441B9 /* Extension+MKCoordinateRegion.swift */; };
+		4744675B27E331BA001441B9 /* NavigationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4744675A27E331BA001441B9 /* NavigationModel.swift */; };
+		47536D5E27D5EFAF00479EE0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47536D5D27D5EFAF00479EE0 /* DetailViewController.swift */; };
+		47536D6027D7088800479EE0 /* LocationMathTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47536D5F27D7088800479EE0 /* LocationMathTool.swift */; };
+		477A51C627DECC7C00436C07 /* Parking+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A51C427DECC7C00436C07 /* Parking+CoreDataClass.swift */; };
+		477A51C727DECC7C00436C07 /* Parking+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477A51C527DECC7C00436C07 /* Parking+CoreDataProperties.swift */; };
+		4782FE2D27C8ACC300D80B08 /* SourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4782FE2C27C8ACC300D80B08 /* SourceType.swift */; };
+		4782FE3127CDCD5400D80B08 /* DataContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4782FE3027CDCD5400D80B08 /* DataContents.swift */; };
+		478D63D527C4B9ED005D1506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D63D427C4B9ED005D1506 /* AppDelegate.swift */; };
+		478D63D727C4B9ED005D1506 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D63D627C4B9ED005D1506 /* SceneDelegate.swift */; };
+		478D63D927C4B9ED005D1506 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478D63D827C4B9ED005D1506 /* MasterViewController.swift */; };
+		478D63DC27C4B9ED005D1506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478D63DA27C4B9ED005D1506 /* Main.storyboard */; };
+		478D63DE27C4B9EE005D1506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478D63DD27C4B9EE005D1506 /* Assets.xcassets */; };
+		478D63E127C4B9EE005D1506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478D63DF27C4B9EE005D1506 /* LaunchScreen.storyboard */; };
+		47FA9A2B27E875DA00A2B0F9 /* AreaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FA9A2A27E875DA00A2B0F9 /* AreaTableViewCell.swift */; };
+		47FA9A2D27E87AA700A2B0F9 /* AreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FA9A2C27E87AA700A2B0F9 /* AreaViewController.swift */; };
+		47FA9A4F27F15F2300A2B0F9 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FA9A4E27F15F2300A2B0F9 /* WeatherData.swift */; };
+		47FA9A5227F1A84900A2B0F9 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FA9A5127F1A84900A2B0F9 /* LocationService.swift */; };
+		47FA9A5927F426CC00A2B0F9 /* WeatherDataContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FA9A5827F426CC00A2B0F9 /* WeatherDataContents.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47312BDA27D72FD800D71EC7 /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
+		47312BE527D9829700D71EC7 /* ParkingLocTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLocTableCell.swift; sourceTree = "<group>"; };
+		473CBD8D27C71EDE00650029 /* ParkingData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParkingData.xcdatamodel; sourceTree = "<group>"; };
+		473D064C27C87B5400459402 /* DBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBModel.swift; sourceTree = "<group>"; };
+		473D064E27C8801F00459402 /* ParkingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingData.swift; sourceTree = "<group>"; };
+		4744675727E3266D001441B9 /* Extension+MKCoordinateRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+MKCoordinateRegion.swift"; sourceTree = "<group>"; };
+		4744675A27E331BA001441B9 /* NavigationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationModel.swift; sourceTree = "<group>"; };
+		47536D5D27D5EFAF00479EE0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		47536D5F27D7088800479EE0 /* LocationMathTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMathTool.swift; sourceTree = "<group>"; };
+		477A51C427DECC7C00436C07 /* Parking+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Parking+CoreDataClass.swift"; sourceTree = "<group>"; };
+		477A51C527DECC7C00436C07 /* Parking+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Parking+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4782FE2C27C8ACC300D80B08 /* SourceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceType.swift; sourceTree = "<group>"; };
+		4782FE3027CDCD5400D80B08 /* DataContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContents.swift; sourceTree = "<group>"; };
+		478D63D127C4B9ED005D1506 /* ParkingLotProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkingLotProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		478D63D427C4B9ED005D1506 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		478D63D627C4B9ED005D1506 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		478D63D827C4B9ED005D1506 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		478D63DB27C4B9ED005D1506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		478D63DD27C4B9EE005D1506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		478D63E027C4B9EE005D1506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		478D63E227C4B9EE005D1506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47FA9A2A27E875DA00A2B0F9 /* AreaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaTableViewCell.swift; sourceTree = "<group>"; };
+		47FA9A2C27E87AA700A2B0F9 /* AreaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaViewController.swift; sourceTree = "<group>"; };
+		47FA9A4E27F15F2300A2B0F9 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		47FA9A5127F1A84900A2B0F9 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		47FA9A5827F426CC00A2B0F9 /* WeatherDataContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataContents.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		478D63CE27C4B9ED005D1506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47312BDC27D7314F00D71EC7 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				473D064E27C8801F00459402 /* ParkingData.swift */,
+				47FA9A4E27F15F2300A2B0F9 /* WeatherData.swift */,
+				47312BDA27D72FD800D71EC7 /* APIModel.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		47367DC727DAFCF4001C9CD7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				478D63D827C4B9ED005D1506 /* MasterViewController.swift */,
+				47536D5D27D5EFAF00479EE0 /* DetailViewController.swift */,
+				47FA9A2C27E87AA700A2B0F9 /* AreaViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		473D065027C8803E00459402 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				47FA9A5027F1A7EF00A2B0F9 /* LocModel */,
+				47312BDC27D7314F00D71EC7 /* APIService */,
+				473D064C27C87B5400459402 /* DBModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		473D065127C8804C00459402 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				4782FE2C27C8ACC300D80B08 /* SourceType.swift */,
+				4782FE3027CDCD5400D80B08 /* DataContents.swift */,
+				47FA9A5827F426CC00A2B0F9 /* WeatherDataContents.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		473D065227C8805900459402 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				47312BE527D9829700D71EC7 /* ParkingLocTableCell.swift */,
+				47FA9A2A27E875DA00A2B0F9 /* AreaTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4744675627E3262E001441B9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				47536D5F27D7088800479EE0 /* LocationMathTool.swift */,
+				4744675727E3266D001441B9 /* Extension+MKCoordinateRegion.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		478D63C827C4B9ED005D1506 = {
+			isa = PBXGroup;
+			children = (
+				477A51C427DECC7C00436C07 /* Parking+CoreDataClass.swift */,
+				477A51C527DECC7C00436C07 /* Parking+CoreDataProperties.swift */,
+				478D63D327C4B9ED005D1506 /* TableView_test */,
+				478D63D227C4B9ED005D1506 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		478D63D227C4B9ED005D1506 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				478D63D127C4B9ED005D1506 /* ParkingLotProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		478D63D327C4B9ED005D1506 /* TableView_test */ = {
+			isa = PBXGroup;
+			children = (
+				47367DC727DAFCF4001C9CD7 /* Controller */,
+				473D065027C8803E00459402 /* Models */,
+				473D065227C8805900459402 /* Views */,
+				4744675627E3262E001441B9 /* Common */,
+				473D065127C8804C00459402 /* Objects */,
+				478D63D427C4B9ED005D1506 /* AppDelegate.swift */,
+				478D63D627C4B9ED005D1506 /* SceneDelegate.swift */,
+				478D63DA27C4B9ED005D1506 /* Main.storyboard */,
+				478D63DD27C4B9EE005D1506 /* Assets.xcassets */,
+				478D63DF27C4B9EE005D1506 /* LaunchScreen.storyboard */,
+				478D63E227C4B9EE005D1506 /* Info.plist */,
+				473CBD8C27C71EDE00650029 /* ParkingData.xcdatamodeld */,
+			);
+			path = TableView_test;
+			sourceTree = "<group>";
+		};
+		47FA9A5027F1A7EF00A2B0F9 /* LocModel */ = {
+			isa = PBXGroup;
+			children = (
+				4744675A27E331BA001441B9 /* NavigationModel.swift */,
+				47FA9A5127F1A84900A2B0F9 /* LocationService.swift */,
+			);
+			path = LocModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		478D63D027C4B9ED005D1506 /* ParkingLotProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 478D63E527C4B9EE005D1506 /* Build configuration list for PBXNativeTarget "ParkingLotProject" */;
+			buildPhases = (
+				478D63CD27C4B9ED005D1506 /* Sources */,
+				478D63CE27C4B9ED005D1506 /* Frameworks */,
+				478D63CF27C4B9ED005D1506 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkingLotProject;
+			productName = TableView_test;
+			productReference = 478D63D127C4B9ED005D1506 /* ParkingLotProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		478D63C927C4B9ED005D1506 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					478D63D027C4B9ED005D1506 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 478D63CC27C4B9ED005D1506 /* Build configuration list for PBXProject "ParkingLotProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 478D63C827C4B9ED005D1506;
+			productRefGroup = 478D63D227C4B9ED005D1506 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				478D63D027C4B9ED005D1506 /* ParkingLotProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		478D63CF27C4B9ED005D1506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478D63E127C4B9EE005D1506 /* LaunchScreen.storyboard in Resources */,
+				478D63DE27C4B9EE005D1506 /* Assets.xcassets in Resources */,
+				478D63DC27C4B9ED005D1506 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		478D63CD27C4B9ED005D1506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FA9A4F27F15F2300A2B0F9 /* WeatherData.swift in Sources */,
+				477A51C627DECC7C00436C07 /* Parking+CoreDataClass.swift in Sources */,
+				4744675B27E331BA001441B9 /* NavigationModel.swift in Sources */,
+				4782FE2D27C8ACC300D80B08 /* SourceType.swift in Sources */,
+				4744675827E3266D001441B9 /* Extension+MKCoordinateRegion.swift in Sources */,
+				4782FE3127CDCD5400D80B08 /* DataContents.swift in Sources */,
+				47FA9A2B27E875DA00A2B0F9 /* AreaTableViewCell.swift in Sources */,
+				477A51C727DECC7C00436C07 /* Parking+CoreDataProperties.swift in Sources */,
+				47FA9A2D27E87AA700A2B0F9 /* AreaViewController.swift in Sources */,
+				47312BDB27D72FD800D71EC7 /* APIModel.swift in Sources */,
+				47536D6027D7088800479EE0 /* LocationMathTool.swift in Sources */,
+				47312BE627D9829700D71EC7 /* ParkingLocTableCell.swift in Sources */,
+				47FA9A5227F1A84900A2B0F9 /* LocationService.swift in Sources */,
+				47536D5E27D5EFAF00479EE0 /* DetailViewController.swift in Sources */,
+				478D63D927C4B9ED005D1506 /* MasterViewController.swift in Sources */,
+				478D63D527C4B9ED005D1506 /* AppDelegate.swift in Sources */,
+				47FA9A5927F426CC00A2B0F9 /* WeatherDataContents.swift in Sources */,
+				473D064D27C87B5400459402 /* DBModel.swift in Sources */,
+				473D064F27C8801F00459402 /* ParkingData.swift in Sources */,
+				473CBD8E27C71EDE00650029 /* ParkingData.xcdatamodeld in Sources */,
+				478D63D727C4B9ED005D1506 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		478D63DA27C4B9ED005D1506 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478D63DB27C4B9ED005D1506 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		478D63DF27C4B9EE005D1506 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				478D63E027C4B9EE005D1506 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		478D63E327C4B9EE005D1506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		478D63E427C4B9EE005D1506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		478D63E627C4B9EE005D1506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = VR27Y6N3P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TableView_test/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "使用時才取得GPS座標";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PerryChiu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		478D63E727C4B9EE005D1506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = VR27Y6N3P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TableView_test/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "使用時才取得GPS座標";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PerryChiu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		478D63CC27C4B9ED005D1506 /* Build configuration list for PBXProject "ParkingLotProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478D63E327C4B9EE005D1506 /* Debug */,
+				478D63E427C4B9EE005D1506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		478D63E527C4B9EE005D1506 /* Build configuration list for PBXNativeTarget "ParkingLotProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				478D63E627C4B9EE005D1506 /* Debug */,
+				478D63E727C4B9EE005D1506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		473CBD8C27C71EDE00650029 /* ParkingData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				473CBD8D27C71EDE00650029 /* ParkingData.xcdatamodel */,
+			);
+			currentVersion = 473CBD8D27C71EDE00650029 /* ParkingData.xcdatamodel */;
+			path = ParkingData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 478D63C927C4B9ED005D1506 /* Project object */;
+}
